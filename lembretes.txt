@@ -1,0 +1,25 @@
+npm install nodemon -D =>reiniciar servidor enquanto tiver desenvolvendo
+insomnia - para testar a aplicação
+knex(bibliotteca) para modelar o sqlite no node
+sqlite
+
+entidade
+ONG
+casos
+
+Funcionalidades
+login
+logout
+cadastro
+cadastrar novos casos
+deletar casos
+listar casos especificos
+listar todos os casos
+entrar em contato
+
+npm install knex => instalar a bibliotaca
+npm install sqlite3 => instal o bd no node
+npx knex migrate:make create_ongs => cria tabela
+npx knex migrate:latest => executa a tabela
+npx knex => comandos disponíveis
+npx knex migrate:status => para ver o status
