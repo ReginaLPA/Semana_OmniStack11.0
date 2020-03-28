@@ -23,3 +23,7 @@ npx knex migrate:make create_ongs => cria tabela
 npx knex migrate:latest => executa a tabela
 npx knex => comandos disponíveis
 npx knex migrate:status => para ver o status
+
+
+
+Reporter Request Report
