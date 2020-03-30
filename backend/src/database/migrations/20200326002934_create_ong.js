@@ -8,8 +8,9 @@ exports.up = function(knex) {
         table.string('city').notNullable();
         table.string('uf',2).notNullable();
 });  
+    
 };
 
 exports.down = function(knex) {
-    return knex.shema.dropTable('ongs');
+    return knex.schema.dropTable('ongs');
 };

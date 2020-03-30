@@ -17,9 +17,9 @@ routes.post('/ongs', OngController.create);
 
 routes.get('/profile', ProfileController.index);
 
-routes.get('/Incidents',IncidentController.index); 
-routes.post('/Incidents',IncidentController.create);
-routes.delete('/Incidents/id', IncidentController.delete);
+routes.get('/incidents',IncidentController.index); 
+routes.post('/incidents',IncidentController.create);
+routes.delete('/incidents/id', IncidentController.delete);
  
 
 module.exports = routes; // para exportar alguma variavel no node
