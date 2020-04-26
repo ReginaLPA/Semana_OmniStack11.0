@@ -20,7 +20,7 @@ export default function Detail() {
         MailComposer.composeAsync({
             subject: 'Herói do caso: Cadelinh Atropelada',
             recipients: ['lacerdapinheiro.com.br'],
-            body:
+            body:"",
         })
     }
 
