@@ -17,7 +17,7 @@ listar casos especificos
 listar todos os casos
 entrar em contato
 
-npm install knex => instalar a bibliotaca
+npm install knex => instalar a biblioteca
 npm install sqlite3 => instal o bd no node
 npx knex migrate:make create_ongs => cria tabela
 npx knex migrate:latest => executa a tabela
